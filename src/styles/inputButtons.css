@@ -1,0 +1,16 @@
+.inputText {
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 24px;
+    margin: 40px 40px 0;
+}
+
+.addBTN {
+    font-size: 24px;
+    padding:0 10px;
+    border-radius: 20px;
+}
+
+.inputCont {
+    justify-content: space-between;
+}

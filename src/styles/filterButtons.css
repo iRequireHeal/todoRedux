@@ -1,0 +1,9 @@
+.conteiner {
+    margin: 10px 0;
+}
+
+.filterButton {
+    padding: 5px 10px;
+    margin: 10px;
+    width: 100px;
+}

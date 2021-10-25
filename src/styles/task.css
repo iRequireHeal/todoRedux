@@ -1,0 +1,28 @@
+.taskItem {
+    background-color: #61dafb;
+    margin: 20px;
+    padding: 8px;
+    min-width: 400px;
+    width: 300px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    border: black solid 1px;
+    border-radius: 20px;
+}
+
+.inputButton {
+    margin: 0;
+    color: indigo;
+}
+
+.deleteBTN {
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: orangered;
+    color: white;
+}
+
+.toggleBTN {
+    margin: 5px;
+}
