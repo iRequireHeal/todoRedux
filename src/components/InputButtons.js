@@ -8,7 +8,6 @@ export const InputButtons = () => {
     const dispatch = useDispatch()
     const tasks = useSelector(getTaskList)
     const[inputValue, setInputValue] = useState("")
-
     const addTask = () => {
         dispatch(addTaskAC({id:tasks.length+1, taskName:inputValue, isReady: false}))
         setInputValue("")

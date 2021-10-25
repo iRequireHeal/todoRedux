@@ -1,3 +1,3 @@
 export const getFilter = (state) => {
-    return state.filterReducer
+    return state.filterReducer.filterReducer
 }

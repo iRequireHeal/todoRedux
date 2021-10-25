@@ -1,7 +1,7 @@
 import {actionTypes} from "../action-types/task";
 
 const {
-    ADD_TASK, TOGGLE_TASK, DELETE_TASK, SET_FILTER,
+    ADD_TASK, TOGGLE_TASK, DELETE_TASK, SET_FILTER
 } = actionTypes;
 
 export const addTaskAC = (task) => {
@@ -31,17 +31,10 @@ export const toggleTaskAC = (id) => {
     }
 }
 
-export const showAllAC = () => ({
-    type: SET_FILTER,
-    payload: 'SHOW_ALL',
-});
+export const setFilterAC = (filter) => {
+    return{
+        type: SET_FILTER,
+        payload: filter,
+    }
+}
 
-export const showActiveAC = () => ({
-    type: SET_FILTER,
-    payload: 'SHOW_ACTIVE',
-});
-
-export const showReadyAC = () => ({
-    type: SET_FILTER,
-    payload: 'SHOW_READY',
-});
