@@ -7,7 +7,7 @@ const initialState = {
     filter: SHOW_ALL,
 };
 
-const filterReducer = (state = initialState, action) => {
+export const filterReducer = (state = initialState, action) => {
     switch (action.type) {
         case SET_FILTER:
             return { ...state, filter: action.payload };
@@ -15,5 +15,3 @@ const filterReducer = (state = initialState, action) => {
             return state;
     }
 }
-
-export default filterReducer;

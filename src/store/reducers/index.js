@@ -1,5 +1,5 @@
 import inputButtons from "./inputButtonsReducer";
-import filterReducer from "./filtersReducer";
+import {filterReducer} from "./filtersReducer";
 import {combineReducers} from "redux";
 
 const allReducers = combineReducers({

@@ -14,6 +14,7 @@ export const InputButtons = () => {
     }
 
     const changeInputValue = (e) =>{
+        if(inputValue.trim().length < 20)
         setInputValue(e.target.value)
     }
 
