@@ -1,9 +1,10 @@
 import { actionTypes } from '../action-types/task'
 
-const { SET_FILTER } = actionTypes;
+
+const { SET_FILTER, SHOW_ALL } = actionTypes;
 
 const initialState = {
-    filter: 'SHOW_ALL',
+    filter: SHOW_ALL,
 };
 
 export const filterReducer = (state = initialState, action) => {
@@ -13,4 +14,4 @@ export const filterReducer = (state = initialState, action) => {
         default:
             return state;
     }
-};
+}

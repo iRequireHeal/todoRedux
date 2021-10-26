@@ -17,7 +17,7 @@ export const Task = ({id, isReady, taskName}) => {
             <p className="inputButton">{taskName} </p>
             <div>
                 <input className="toggleBTN"  type="checkbox" value={isReady} onClick={toggleClick}/>
-                <button className="deleteBTN" onClick={()=>deleteTask()}> delete</button>
+                <button className="deleteBTN" onClick={()=>deleteTask()}>delete</button>
             </div>
         </div>
     )
